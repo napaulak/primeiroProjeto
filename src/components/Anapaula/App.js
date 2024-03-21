@@ -1,14 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button} from 'react-native';
-import Title from './src/components';
+import Title from '.';
+import Anapaula from './main';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Ana Paula Ferreira</Text>
-      <Text>Desenvolvimento de dispositivos móveis - 22 fev. 2024</Text>
-     <Button title='Salvar'></Button>
-    
+      
+   <Anapaula> </Anapaula>
      <Title/>
       
       <StatusBar style="auto"></StatusBar>
